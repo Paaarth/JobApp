@@ -1,0 +1,45 @@
+<!-- pages/contact.html -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Contact Us - JobFindr</title>
+    <link rel="stylesheet" href="../assets/css/style.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <h1 class="logo">JobFindr</h1>
+            <ul>
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="jobs.html">Jobs</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <h2>Contact Us</h2>
+        <form action="https://formspree.io/f/your-form-id" method="POST" class="contact-form">
+            <label for="name">Name:</label>
+            <input type="text" name="name" id="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" name="email" id="email" required>
+
+            <label for="message">Message:</label>
+            <textarea name="message" id="message" rows="5" required></textarea>
+
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 JobFindr. All Rights Reserved.</p>
+    </footer>
+</body>
+
+</html>
